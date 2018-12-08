@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://bitbucket.org/ekinbulut/senseframework</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>SenseFramework Services Module</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>SenseFramework Boilerplate</tags>
+  </metadata>
+</package>
