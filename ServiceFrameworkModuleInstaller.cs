@@ -5,7 +5,7 @@
  * 
  * Desc : This class is a Windsor Installer for SenseFramework.Services.dll. 
  *        The main objective is to build a base structure for WCF services. 
- *        This class registers the register wcf facilities and configures the initial behavior of the services.
+ *        This class registers the wcf facilities and configures the initial behavior of the endpoint services.
  *        
  */
 
@@ -21,8 +21,14 @@ namespace SenseFramework.Services
 {
     using Core.Configuration;
     using Integrations;
+
     public class ServiceFrameworkModuleInstaller : IWindsorInstaller
     {
+        /// <summary>
+        /// Performs the installation in the <see cref="T:Castle.Windsor.IWindsorContainer" />.
+        /// </summary>
+        /// <param name="container">The container.</param>
+        /// <param name="store">The configuration store.</param>
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
             
